@@ -3,6 +3,12 @@
 - Refer -> https://stryker-mutator.io/stryker/quickstart
 - Main Docs -> https://github.com/stryker-mutator/stryker/tree/master/packages/core#readme
 
+### Setup
+
+- Do a git clone 
+- ``` npm install```
+
+
 ### Setup Stryker 
 
 
@@ -24,3 +30,7 @@ stryker init
 stryker run
 ```
 <img width="904" alt="Screenshot 2019-10-22 at 7 19 23 PM" src="https://user-images.githubusercontent.com/25258877/67292661-ee665600-f500-11e9-9732-65c85bbb8ac3.png">
+
+### Contribute
+
+Add more testcases or files. Get back in case of any issues
