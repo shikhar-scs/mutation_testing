@@ -5,20 +5,22 @@
 
 ### Setup Stryker 
 
-Since we are using Mocha
 
-```bash
-npm install -g stryker-cli 
+```console
+sudo npm install -g stryker-cli 
+```
+
+```console
+
 stryker init
+
+# Can be skipped since we already have the stryker.conf.js file
+```
+<img width="1407" alt="Screenshot 2019-10-22 at 7 20 48 PM" src="https://user-images.githubusercontent.com/25258877/67292791-1a81d700-f501-11e9-9d83-7fd40052456c.png">
+
+
+
+```
 stryker run
 ```
-```zsh
-? Do you want to install Stryker locally? npm
-? Are you using one of these frameworks? Then select a preset configuration. None/other
-? Which test runner do you want to use? If your test runner isn't listed here, you can choose "command" (it uses your `npm test` command, but will come with a big performance penalty) mocha
-? Which test framework do you want to use? mocha
-? What kind of code do you want to mutate? javascript
-? [optional] What kind transformations should be applied to your code? 
-? Which reporter(s) do you want to use? clear-text, progress
-? Which package manager do you want to use? npm
-```
+<img width="904" alt="Screenshot 2019-10-22 at 7 19 23 PM" src="https://user-images.githubusercontent.com/25258877/67292661-ee665600-f500-11e9-9732-65c85bbb8ac3.png">
