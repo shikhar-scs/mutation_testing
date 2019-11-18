@@ -7,7 +7,7 @@ module.exports = function(config) {
     transpilers: [],
     testFramework: "mocha",
     coverageAnalysis: "perTest",
-    mutate: ["findRepeatedNumber.js"],
+    mutate: ["findRepeatedNumber.js", "mergeSort.js"],
      mochaOptions: {
             files: ['*.test.js']
         }
